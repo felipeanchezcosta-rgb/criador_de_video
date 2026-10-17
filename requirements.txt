@@ -1,0 +1,9 @@
+python-dotenv
+groq
+requests
+numpy
+Pillow
+rich
+soundfile
+kokoro-onnx
+onnxruntime

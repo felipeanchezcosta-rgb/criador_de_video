@@ -1,0 +1,43 @@
+# ---- Segredos (NUNCA subir) ----
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ---- Ambiente Python ----
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# ---- Saídas geradas (pesadas e reproduzíveis) ----
+output/
+teste_ovh/
+teste_pollinations_*.jpg
+*.mp4
+*.mov
+*.mkv
+*.wav
+*.mp3
+*.part
+
+# ---- Modelos de voz baixados (centenas de MB) ----
+assets/models/
+
+# ---- Músicas (direitos autorais: cada um usa as suas) ----
+assets/music/*
+!assets/music/.gitkeep
+
+# ---- Roteiros de produção pessoais (com extras de thumbnail, tags etc.) ----
+NASA_Hacker_Script.txt
+
+# ---- Editor / sistema ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
